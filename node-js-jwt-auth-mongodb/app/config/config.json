@@ -1,0 +1,20 @@
+{
+    "development": {
+        "username": "root",
+        "password": "root",
+        "database": "riverstone_development",
+        "host": "localhost",
+        "port": "27017",
+        "social_logins": {
+            "google": {
+                "password": "uktktkjlnvxtvhvx",
+                "email": "business03091996@gmail.com"
+            }
+        },
+        "secret": "development_secret",
+        "mailer": {
+            "host": "http://localhost:3000",
+            "resetLink": "/reset-password/"
+        }
+    }
+}
